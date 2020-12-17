@@ -1,0 +1,63 @@
+nav {
+  border-bottom: solid #e9e9e9 1px;
+  padding: 1rem 20%;
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-logo {
+  font-family: 'Domine', serif;
+  display: inline-block;
+  font-size: 1.7rem;
+}
+
+#nav-links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: red;
+}
+
+#nav-search {
+  height: 2.8rem;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-search input {
+  width: 100%;
+  border: 0;
+  margin: 0;
+}
+
+#nav-search input::placeholder {
+  font-size: 1.0rem;
+  color: #c1c1c1;
+  padding-left: 1.0rem;
+}
+
+#nav-search button{
+  width: 2.8rem;
+  background-color: red;
+  color: white;
+  font-size: 1.0rem;
+  border: 0;
+  margin: 0;
+}
