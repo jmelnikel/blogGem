@@ -1,6 +1,6 @@
 /* Font Awesome Icon Styling */
 .fab {
-  margin-right: 0.8rem;
+  padding: 0 0.5rem;
 }
 .fa-facebook-square {
   color: #3b5998;
@@ -35,13 +35,13 @@
   padding: 1.0rem 3.0rem;
 }
 
-.content {
+.about-us-description {
   margin: 0;
   width: 48%;
-  color: #a1a1a1
+  color: #a1a1a1;
 }
 
-.content p {
+.about-us-description p {
   margin: 0;
 }
 
@@ -58,7 +58,6 @@
   padding: 0;
   bottom: -4px;
 }
-
 
 #our-authors {
   display: flex;

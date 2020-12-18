@@ -20,31 +20,31 @@
 </head>
 
 <body>
-  <nav>
+  <nav id="page-nav">
     <div id="nav-logo">Blog Gem</div>
 
     <ul id="nav-links">
       <li>
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link disable">Home</a>
       </li>
       <li>
         <a class="nav-link active" href="aboutus.html">About<span class="sr-only"></span></a>
       </li>
       <li>
-        <a class="nav-link" href="#">Single Post</a>
+        <a class="nav-link disable">Single Post</a>
       </li>
       <li>
-        <a class="nav-link" href="#">Pages</a>
+        <a class="nav-link disable">Pages</a>
       </li>
       <li>
-        <a class="nav-link" href="#">Category</a>
+        <a class="nav-link disable">Category</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact-us.html">Contact Us</a>
       </li>
     </ul>
 
-    <form id="nav-search">
+    <form id="nav-search" action="" method="">
       <input type="search" placeholder="Search" aria-label="Search">
       <button type="submit"><i class="fas fa-search"></i></button>
     </form>
@@ -53,12 +53,13 @@
     <section id="about-us">
       <header>ABOUT US</header>
       <article>
-        <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae doloribus quasi,
+        <p class="about-us-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae
+          doloribus quasi,
           reiciendis totam
           illum velit aut obcaecati rem debitis tempora, neque aspernatur impedit distinctio nesciunt illo reprehenderit
           ullam aliquid.
         </p>
-        <div class="content">
+        <div class="about-us-description">
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae doloribus quasi, reiciendis totam
             illum velit aut obcaecati rem debitis tempora, neque aspernatur impedit distinctio nesciunt illo
             reprehenderit
@@ -72,8 +73,10 @@
           </div>
         </div>
       </article>
+
       <img src="assets/mountain.png" alt="Stock image of mountains.">
     </section>
+
     <section id="our-authors">
       <header>OUR AUTHORS</header>
       <article class="author">
@@ -87,6 +90,7 @@
           </div>
         </footer>
       </article>
+
       <article class="author">
         <img src="assets/Bob.png" alt="">
         <footer>
@@ -98,6 +102,7 @@
           </div>
         </footer>
       </article>
+
       <article class="author">
         <img src="assets/Terry.png" alt="">
         <footer>
@@ -109,6 +114,7 @@
           </div>
         </footer>
       </article>
+
       <article class="author">
         <img src="assets/Maneesh.png" alt="">
         <footer>
@@ -120,6 +126,7 @@
           </div>
         </footer>
       </article>
+
       <article class="author">
         <img src="assets/Paige.png" alt="">
         <footer>
@@ -131,6 +138,7 @@
           </div>
         </footer>
       </article>
+
       <article class="author">
         <img src="assets/Paul.png" alt="">
         <footer>
@@ -144,7 +152,59 @@
       </article>
     </section>
   </main>
-  <footer>
+  <footer id="page-footer">
+    <section id="subscription">
+      <div id="subscription-description">
+        <i class="far fa-envelope"></i>
+        <div>
+          <h2>Subscribe Newsletter</h2>
+          <p>Signup with your email address to receive the lastest updates.</p>
+        </div>
+      </div>
+
+      <form id="enter-email" action="" method="">
+        <input type="email" placeholder="Email address" aria-label="Email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+    <section id="footer-container">
+      <article id="description">
+        <h2>Blog Gem</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem impedit architecto temporibus at.
+          Voluptatem ab ipsum architecto. Harum necessitatibus numquam distinctio nobis laboriosam, doloremque itaque in
+          ducimus nihil veritatis libero.</p>
+      </article>
+      <article id="categories">
+        <h2>Categories</h2>
+        <div>
+          <ul class="category-links">
+            <li><a class="category-link" href="#">Nature</a></li>
+            <li><a class="category-link" href="#">Charity</a></li>
+            <li><a class="category-link" href="#">Business</a></li>
+            <li><a class="category-link" href="#">Movies</a></li>
+            <li><a class="category-link" href="#">Fashion</a></li>
+          </ul>
+          <ul class="category-links">
+            <li><a class="category-link" href="#">Inspirations</a></li>
+            <li><a class="category-link" href="#">Adventure</a></li>
+            <li><a class="category-link" href="#">Trekking</a></li>
+            <li><a class="category-link" href="#">Food</a></li>
+          </ul>
+        </div>
+      </article>
+      <article id="follow-us">
+        <h2>Follow Us</h2>
+        <div id="follow-us-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fas fa-rss"></i></a>
+          <a href="#"><i class="fab fa-vimeo-v"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </article>
+    </section>
+    <p>Copyright &copy; Bloggem 2017 all rights reserved</p>
   </footer>
 
   <!-- NavBar -->

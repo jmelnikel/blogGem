@@ -1,5 +1,145 @@
-footer {
+#page-footer {
   background-color: #0C132D;
-  height: 100px;
+  color: #a1a1a1;
   padding: 1rem 20%;
+  margin-top: 8.0rem;
+}
+
+#page-footer > * {
+  position: relative;
+  top: -7.0rem;
+}
+
+#subscription {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2.5rem;
+}
+
+#subscription-description {
+  display: flex;
+  flex-direction: row;
+}
+
+#subscription i {
+  color: red;
+  font-size: 1.5rem;;
+  padding-right: 1.0rem;
+}
+
+#subscription h2 {
+  font-family: 'Domine', serif;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#subscription p {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+}
+
+#enter-email {
+  height: 3.0rem;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+#enter-email input {
+  background-color: #f1f1f1;
+  width: 100%;
+  border: 0;
+  margin: 0;
+}
+
+#enter-email input::placeholder {
+  font-size: 1.0rem;
+  color: #c1c1c1;
+  padding-left: 1.0rem;
+}
+
+#enter-email button {
+  background-color: red;
+  color: white;
+  font-size: 1.0rem;
+  border: 0;
+  margin: 0;
+  padding: 0 1.5rem;
+}
+
+#enter-email button:hover {
+  background-color: white;
+  color: red;
+}
+
+#footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4.0rem 0;
+  line-height: 1.7;
+}
+
+#footer-container h2 {
+  font-family: 'Domine', serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1.0rem;
+}
+
+#description {
+  width: 35%;
+}
+
+#categories {
+  width: 25%;
+}
+
+#categories div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.category-links {
+  list-style-type: none;
+  padding: 0;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.category-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+#follow-us-links {
+  display: grid;
+  grid-template-columns: repeat(3, 65px);
+}
+
+#follow-us-links a {
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  font-size: 1.3rem;
+  margin: 0.3rem;  
+  background-color: #121B38;
+  color: red;
+}
+
+#follow-us-links a:hover {
+  background-color: white;
+}
+
+footer p {
+  margin-top: 0;
 }

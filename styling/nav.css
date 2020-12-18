@@ -1,4 +1,4 @@
-nav {
+#page-nav {
   border-bottom: solid #e9e9e9 1px;
   padding: 1rem 20%;
   font-family: 'Dosis', sans-serif;
@@ -32,6 +32,10 @@ nav {
   color: red;
 }
 
+.disable {
+  color: grey
+}
+
 #nav-search {
   height: 2.8rem;
   width: 30%;
@@ -53,11 +57,16 @@ nav {
   padding-left: 1.0rem;
 }
 
-#nav-search button{
+#nav-search button {
   width: 2.8rem;
   background-color: red;
   color: white;
   font-size: 1.0rem;
   border: 0;
   margin: 0;
+}
+
+#nav-search button:hover {
+  background-color: white;
+  color: red;
 }
